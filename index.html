@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .jumbotron {
+            background-color: #9998f2;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-primary">
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">History of School</a>
+                            <a class="dropdown-item" href="#">Our Philosophy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">School infrastructure</a>
+                            <a class="dropdown-item" href="#">Chairman's Message</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Principal's Message</a>
+                            <a class="dropdown-item" href="#">School Documents & Information</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ACADEMICS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Syllabus</a>
+                            <a class="dropdown-item" href="#">Our Philosophy</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Performance Test</a>
+                            <a class="dropdown-item" href="#">Terminal Test</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Facilities</a>
+                            <a class="dropdown-item" href="#">Academic Calender</a>
+                            <a class="dropdown-item" href="#">Rules & Regulations</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ADMISSION
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Admission Form</a>
+                            <a class="dropdown-item" href="#">Fees Rules</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Admission Process</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ACTIVITIES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Activity Chart</a>
+                            <a class="dropdown-item" href="#">Club</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Latest News</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            EVENTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Upcoming Events</a>
+                            <a class="dropdown-item" href="#">Past Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PHOTO GALLERY
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Nursery Wing</a>
+                            <a class="dropdown-item" href="#">Primary Wing</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Seniour Wing</a>
+                            <a class="dropdown-item" href="#">Photo Gallery</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button type="button" class="btn btn-dark">Login</button>
+                        </a>
+                        <div class="dropdown-menu">
+                            <form class="px-4 py-3">
+                                <div class="form-group">
+                                    <label for="exampleDropdownFormEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                        placeholder="email@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleDropdownFormPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                        placeholder="Password">
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                    <label class="form-check-label" for="dropdownCheck">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </form>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item" href="#">Forgot password?</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </nav>
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/icon1.png" width="50" height="70" class="d-inline-block align-top" alt="">
+            <span style="color: red; text-align: center; font-size: 50px;">VIVEK PUBLIC SCHOOL</span>
+        </a>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/img1.jpg" alt="First slide" height="800px">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="row">
+                        <!--card 1-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--card 2-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img9.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--card 3-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/img2.jpg" alt="Second slide" height="800px">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="row">
+                        <!--card 1-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--card 2-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img9.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--card 3-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/img3.jpg" alt="Third slide" height="800px">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="row">
+                        <!--card 1-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--card 2-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img9.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--card 3-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/img7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- slide images-->
+    <!--card start-->
+    <div class="card">
+        <div class="card-header">
+            <button type="button" class="btn btn-danger btn-lg btn-block">Welcome to</button>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">VIVEK PUBLIC SCHOOL</h5>
+            <p class="card-text">A school is known for a child when she / he enters a school system, it is the begining
+                of a long journey of the ‘self and the world around’ in a gradual but regulated manner. Mark the words
+                ‘gradual’ and ‘regulated’.Any attempt to overload the young brain with too much too soon is actually
+                detrimental to a natural growth of the child’s brain and mind that are raw and still not developed fully
+                in a biological sense.
+
+                On the contrary, there is risk of killing the naturally evolving process of the spirit of enquiry and
+                curiosity in the child even before they are awakened.That is what actually afflicting the school
+                education system in the country today. What with public schools vying with each other in producing
+                asmart new generation of the child prodigies.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="images/img4.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/img5.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/img6.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Enhancing Skills and Attitude.</h1>
+        <p class="lead">Education is not about getting good grades, its about developing awesome minds and enhancing
+            good Skills which will help in devloping our nation, our city and our Society.</p>
+        <hr class="my-4">
+        <p class="lead">
+        <div class="card-deck">
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text">To facilitate a balanced development of human mind, body and soul in their
+                        formative years in a school system through design and delivery of curriculum-oriented classroom
+                        instructions, inculcation of the finest universal human values and development of a free spirit
+                        of enquiry, curiosity and scientific temper using most appropriate modern teaching and training
+                        methodologies, techniques, modes and media.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title">Our Vision</h5>
+                    <p class="card-text">Education is a participate and collaborate activity. We follow the motto learn,
+                        love, labour. “learn” stands for the efforts of teacher to find out and polish the learning
+                        abilities of the situation. “love” promotes the benevolent outlook of students and teachers to
+                        Nature and all fellow beings. “labour” symbolizes the hard work and diligence to leave no stone
+                        unturned to produce efficient and effective learning in conducive environment.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
